@@ -190,12 +190,24 @@ footer {
     section.hero {
         height: 500px;
         padding: 32px;
+        border-radius: 0 0 230px 0;
     }
     section.hero h1{
-        font-size: 35px;
-        max-width: fit-content;
+        font-size: 25px;
     }
     div.testo2{
         font-size: 15px;
+    }
+    div.contenuto{
+        display: block;
+    }
+    div.calvino{
+        max-width: 200px;
+    }
+    div.card2{
+        max-width: 200px;
+    }
+    footer nav ul{
+        display: block;
     }
 }
